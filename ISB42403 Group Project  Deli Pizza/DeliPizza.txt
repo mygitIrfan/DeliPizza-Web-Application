@@ -1,0 +1,102 @@
+CREATE TABLE [dbo].[FoodCategories] (
+    [CatID]    INT           IDENTITY (1, 1) NOT NULL,
+    [CatTitle] VARCHAR (50)  NULL,
+    [CatDesc]  VARCHAR (500) NULL,
+    PRIMARY KEY CLUSTERED ([CatID] ASC)
+);
+
+CREATE TABLE [dbo].[Items] (
+    [ItemID]    INT           IDENTITY (1, 1) NOT NULL,
+    [CatID]     INT           NOT NULL,
+    [FoodName]  VARCHAR (50)  NULL,
+    [FoodPrice] FLOAT (53)    NULL,
+    [About]     VARCHAR (500) NULL,
+    [ItemImage] VARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([ItemID] ASC),
+    CONSTRAINT [FK_FoodCategories] FOREIGN KEY ([CatID]) REFERENCES [dbo].[FoodCategories] ([CatID])
+);
+
+CREATE TABLE [dbo].[Sales] (
+    [SalesID]   VARCHAR (10) NOT NULL,
+    [ItemID]    INT          NOT NULL,
+    [Quantity]  INT          NULL,
+    [SalesDate] DATETIME     NULL,
+    [Confirmed] BIT          DEFAULT ((0)) NOT NULL,
+    PRIMARY KEY CLUSTERED ([SalesID] ASC, [ItemID] ASC)
+);
+
+CREATE TABLE [dbo].[UserAccounts] (
+    [Id]           INT           IDENTITY (1, 1) NOT NULL,
+    [UserName]     VARCHAR (50)  NULL,
+    [PasswordHash] VARCHAR (100) NULL,
+    [Role]         VARCHAR (10)  NULL,
+    [Enabled]      BIT           NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE PROCEDURE [dbo].[spGetMonthlySalesSummary]
+	AS
+BEGIN
+    SELECT DATEPART(YEAR, SalesDate) AS Year, DATEPART(MONTH, SalesDate) AS Month, SUM(Quantity * FoodPrice) AS TotalAmount
+    FROM Sales s
+    JOIN Items i ON s.ItemID = i.ItemID
+    GROUP BY DATEPART(YEAR, SalesDate), DATEPART(MONTH, SalesDate)
+    ORDER BY Year, Month
+END
+
+CREATE PROCEDURE spGetSalesByProduct
+AS
+BEGIN
+    SELECT i.FoodName, SUM(s.Quantity) AS TotalQuantity, SUM(s.Quantity * i.FoodPrice) AS TotalAmount
+    FROM Sales s
+    JOIN Items i ON s.ItemID = i.ItemID
+    GROUP BY i.FoodName
+    ORDER BY TotalAmount DESC
+END
+
+CREATE PROCEDURE spGetTotalSalesAmount
+AS
+BEGIN
+    SELECT SUM(Quantity * FoodPrice) AS TotalSalesAmount
+    FROM Sales s
+    JOIN Items i ON s.ItemID = i.ItemID
+END
+
+CREATE PROCEDURE spSalesAddItem
+@SalesID varchar(10),
+@ItemID int,
+@Quantity int
+AS
+IF NOT EXISTS (SELECT SalesID FROM Sales WHERE ItemID = @ItemID AND SalesID = @SalesID)
+        INSERT INTO Sales VALUES (@SalesID, @ItemID, @Quantity, GETDATE(), 0)
+ELSE
+        UPDATE Sales SET Quantity = @Quantity
+        WHERE ItemID = @ItemID AND SalesID = @SalesID
+
+DELETE FROM Sales WHERE Quantity = 0;
+
+CREATE PROCEDURE spSalesConfirm
+@SalesID VARCHAR(10)
+AS
+UPDATE Sales SET Confirmed = 1 WHERE SalesID = @SalesID;
+
+CREATE PROCEDURE spSalesGetItems
+@SalesID varchar (10)
+AS
+SELECT Sales.ItemID, Items.FoodName, Items.FoodPrice, Sales.Quantity,
+Items.FoodPrice * Sales.Quantity AS SubTotal
+FROM Sales INNER JOIN Items ON Sales.ItemID = Items.ItemID
+WHERE Sales.SalesID = @SalesID
+
+CREATE PROCEDURE spSalesGetTotalAmount
+@SalesID VARCHAR(10)
+AS
+SELECT ISNULL (SUM(Items.FoodPrice * Sales.Quantity), 0)
+FROM Sales INNER JOIN Items ON Sales.ItemID = Items.ItemID
+WHERE Sales.SalesID = @SalesID
+
+CREATE PROCEDURE spSalesRemoveNotConfirmed
+@SalesID VARCHAR(10)
+AS
+DELETE FROM Sales
+WHERE SalesID = @SalesID AND Confirmed = 0;

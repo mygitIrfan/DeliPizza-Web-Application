@@ -1,0 +1,94 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.manage-gridview, .sales-report {
+    width: 48%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.manage-gridview {
+    max-width: 500px;
+}
+
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed;
+}
+
+    .gridview th, .gridview td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+        word-wrap: break-word;
+    }
+
+    .gridview th {
+        background-color: #f2f2f2;
+        color: #333;
+    }
+
+    .gridview tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+.gridview-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.sales-report h1, .sales-report h2 {
+    text-align: center;
+    color: #333;
+}
+
+.sales-report .summary, .sales-report .by-product, .sales-report .sales-table {
+    margin-top: 20px;
+}
+
+    .sales-report .summary h2, .sales-report .by-product h2, .sales-report .sales-table h2 {
+        color: #555;
+    }
+
+#lblTotalSalesAmount {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .admin-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .manage-gridview, .sales-report {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

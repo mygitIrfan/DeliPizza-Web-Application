@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="rotipizza.master.cs" Inherits="DeliPizza.rotipizza" %>
+<%@ Register Src="~/UserControls/LogInStatus.ascx" TagPrefix="uc1" TagName="LoginStatus" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Deli Pizza</title>
+    <link href="Style/roti.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" class="page-container">
+        <img src="ImagesPizza/pizzabanner.jpg" class="banner" alt="Pizza Banner" />
+        <div class="header">
+            <a href="Default.aspx">Home</a> &nbsp;|&nbsp;
+            <uc1:LoginStatus runat="server" ID="LogInStatus" CssClass="logout-button" />
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div class="footer">
+        <p>&copy; 2024 Deli Pizza. All rights reserved.</p>
+    </div>
+</body>
+</html>

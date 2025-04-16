@@ -1,0 +1,118 @@
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\DeliPizza.dll.config
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\DeliPizza.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\DeliPizza.pdb
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\csc.exe
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\csc.exe.config
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\csc.rsp
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\csi.exe
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\csi.exe.config
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\csi.rsp
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.Managed.Core.targets
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.AppContext.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Collections.Immutable.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Console.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Globalization.Calendars.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.IO.Compression.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.IO.FileSystem.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Net.Http.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Net.Sockets.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Reflection.Metadata.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.ValueTuple.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Xml.XmlDocument.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Xml.XPath.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\vbc.exe
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\vbc.exe.config
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\vbc.rsp
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\VBCSCompiler.exe
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\roslyn\VBCSCompiler.exe.config
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\WAD - PROJECT\DeliPizza\DeliPizza\obj\Debug\DeliPizza.csproj.AssemblyReference.cache
+C:\WAD - PROJECT\DeliPizza\DeliPizza\obj\Debug\DeliPizza.csproj.CoreCompileInputs.cache
+C:\WAD - PROJECT\DeliPizza\DeliPizza\obj\Debug\DeliPizza.csproj.Up2Date
+C:\WAD - PROJECT\DeliPizza\DeliPizza\obj\Debug\DeliPizza.dll
+C:\WAD - PROJECT\DeliPizza\DeliPizza\obj\Debug\DeliPizza.pdb
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\DeliPizza.dll.config
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\DeliPizza.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\DeliPizza.pdb
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\csc.exe
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\csc.exe.config
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\csc.rsp
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\csi.exe
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\csi.exe.config
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\csi.rsp
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.Managed.Core.targets
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\Microsoft.Win32.Primitives.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.AppContext.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Console.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Globalization.Calendars.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.IO.Compression.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.IO.Compression.ZipFile.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.IO.FileSystem.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Net.Http.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Net.Sockets.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Security.Cryptography.Encoding.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Security.Cryptography.Primitives.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Text.Encoding.CodePages.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Threading.Tasks.Extensions.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.ValueTuple.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Xml.ReaderWriter.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Xml.XmlDocument.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Xml.XPath.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\System.Xml.XPath.XDocument.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\vbc.exe
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\vbc.exe.config
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\vbc.rsp
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\obj\Debug\DeliPizza.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\obj\Debug\DeliPizza.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\obj\Debug\DeliPizza.csproj.Up2Date
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\obj\Debug\DeliPizza.dll
+\\Mac\Home\Desktop\DeliPizza2\DeliPizza\obj\Debug\DeliPizza.pdb

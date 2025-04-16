@@ -1,0 +1,105 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    text-align: center;
+    padding-top: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.tagline {
+    font-size: 24px;
+    color: tomato;
+    margin: 0;
+}
+
+    .tagline .deli {
+        color: black;
+        font-weight: bold;
+        text-shadow: -1px -1px 0 tomato, 1px -1px 0 tomato, -1px 1px 0 tomato, 1px 1px 0 tomato;
+    }
+
+.centered-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.leftColumn {
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+
+.rightColumn {
+    width: 35%;
+    float: right;
+    padding: 10px;
+    background-color: #e9e9e9;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    .header a {
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.GridViewStyle {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .GridViewStyle th {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .GridViewStyle td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .GridViewStyle tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .GridViewStyle tr:hover {
+        background-color: #ddd;
+    }
+
+.footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
